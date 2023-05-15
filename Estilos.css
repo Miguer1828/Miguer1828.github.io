@@ -1,0 +1,410 @@
+body{
+background: rgb(5
+  , 5, 5) ;
+
+}
+
+a img:hover {
+  border: 2px solid white;
+}
+
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  float: right;
+  width: 70px;
+  height: 35px;
+  margin: 25px 0px 0 0;
+  position: relative;
+}
+
+
+
+button:hover {
+  border: 2px solid white;
+}
+
+.imagen {
+  width: 100%;
+  overflow: hidden;
+}
+.imagen img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background-size: cover;
+  position: relative;
+
+}
+
+
+.texto-sobre-imagen {
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  padding: 20px;
+  background-color: rgb(34, 20, 43,);
+  
+}
+
+h1{
+  font-size: 46px;
+  font-family: 'Open Sans', sans-serif;
+}
+.textoimagen {
+  color: rgb(5,5,5);
+  font-size: 20px;
+}
+
+.fotoperfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 70%;
+  left:10%;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+  
+}
+
+.fotoperfil img{
+  width: 100%;
+  height: 100%;
+ object-fit: cover;}
+
+h2 {
+  color: rgb(255,255,255);
+  font-size: 30px;
+  font-weight: bold;
+margin: 10px 10 100 20px;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.contienetituloyparrafo{
+text-align: center;
+}
+
+.title {
+  color: rgb(255,255,255);
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+.textosimple {
+  font-size: 18px;
+  line-height: 1.5;
+   color: rgb(255,255,255);
+  font-size: 16px;
+text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  right:15%;
+  line-height: 1.5;
+}
+
+
+.contenedordeexperiencia {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.columna {
+  width: 30%;
+  background: rgb(5, 5, 5);
+}
+
+.imagenesExp{
+
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  overflow: hidden;
+  
+}
+.imagenesExp img {
+  width: 100%;
+  height: auto;
+}
+
+
+h3 {
+  color: rgb(255,255,255);
+  font-size: 20px;
+  font-weight: bold;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+p {
+
+  color: rgb(255,255,255);
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+
+.education {
+  display: flex;
+  align-items: left;
+  margin-bottom: 20px;
+}
+
+.education img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 40px;
+
+}
+
+.education-content {
+  flex-grow: 1;
+}
+
+.education h3 {
+  font-size: 24px;
+  margin: 0;
+  text-align: left;
+}
+
+.education p {
+  font-size: 18px;
+  margin: 10px 0 0;
+  text-align: left;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill {
+  width: 23%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skill-image {
+  position: relative;
+  display: inline-block;
+}
+
+.skill-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+}
+
+.skill-percentage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  border-radius: 50%;
+}
+
+.skill-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.proyectos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.proyecto {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+}
+
+.proyecto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+  max-width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.proyecto img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.proyecto h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.proyecto span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+}
+
+.proyecto button{
+   /*justify-content: center;
+  align-items: center;*/
+  
+}
+
+.botonproyecto1 {
+  background-color: grey; /* Cambia el color de fondo */
+  color: white; /* Cambia el color del texto */
+  padding: 12px 40px; /* Cambia el tamaño del botón */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px; /* Cambia la forma del botón */
+  font-size: 12px;
+  justify-self: center;
+  line-height: 10px;
+  line-width: 10px;
+  width:120px;
+}
+
+
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  color: rgb(255,255,255);
+  font-family: 'Century Gothic', sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: rgb(4, 3, 140);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(155, 155, 155);
+}
+
+/* Estilos del botón de edición */
+.edit-btn{
+  position: absolute; /* Posición absoluta para superponer al contenido */
+  right: 80px; /* Ubicación en la parte derecha */
+  cursor: pointer; /* Cambiar el cursor a un puntero */
+}
+
+
+.edit-btn{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  right: 80px; /* Ubicación en la parte derecha */
+  display: none;
+}
+
+.edit-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Estilos del botón de edición */
+.eliminar-btn{
+  position: absolute; /* Posición absoluta para superponer al contenido */
+  right: 10px; /* Ubicación en la parte derecha */
+  cursor: pointer; /* Cambiar el cursor a un puntero */
+}
+
+
+.eliminar-btn{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  right: 10px; /* Ubicación en la parte derecha */
+  display: none;
+}
+
+.eliminar-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
